@@ -1,0 +1,28 @@
+body{
+    background-color: #353131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 25rem;
+}
+
+.square{
+    background-color: #0f0f0f;
+    box-shadow: 0 0 2px #0f0f0f;
+    height: 1rem;
+    width: 1rem;
+    margin: 2px;
+    transition: 1s ease;
+}
+
+.square:hover{
+    transition-duration: 0s;
+}
